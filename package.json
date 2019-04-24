@@ -1,0 +1,30 @@
+{
+  "name": "nyc-tech-job-finder",
+  "version": "1.0.0",
+  "description": "job search app for nyc software engineers",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chetbaby/nyc-tech-job-finder.git"
+  },
+  "keywords": [
+    "job",
+    "finder",
+    "scraper",
+    "crud"
+  ],
+  "author": "ChetBABY! https://github.com/chetbaby <chet.hay@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chetbaby/nyc-tech-job-finder/issues"
+  },
+  "homepage": "https://github.com/chetbaby/nyc-tech-job-finder#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.16.4"
+  }
+}
