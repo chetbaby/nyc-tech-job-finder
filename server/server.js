@@ -16,9 +16,9 @@ const scraperController = require('./scraper');
 
 app.get('/',
   scraperController.getData, scraperController.allPostings,
+  /* scraperController.getDetails */,
   (req, res) => {
     res.send(res.locals)
-    // res.end()
   }
 
 );
